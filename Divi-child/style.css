@@ -1,0 +1,65 @@
+/*
+ Theme Name:     Divi Child
+ Theme URI:      https://www.elegantthemes.com/gallery/divi/
+ Description:    Divi Child Theme
+ Author:         Elegant Themes
+ Author URI:     https://www.elegantthemes.com
+ Template:       Divi
+ Version:        1.0.0
+*/
+
+
+/* =Theme customization starts here
+------------------------------------------------------- */
+.nytt {
+  position: relative;
+}
+.nytt.et_pb_toggle_item.et_pb_toggle_close::before {
+  top: 50%;
+  margin-top: -21px;
+}
+
+.nytt::before {
+  position: absolute;
+  font-family: ETmodules!important;
+  content: '\73';
+  color: #f00;
+  font-size: 24px;
+  border-radius: 24px;
+  height: 42px;
+  width: 42px;
+  line-height: 1.6em;
+  background: white;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  vertical-align: middle;
+  top: 11px;
+  left: -21px;
+}
+a.nytt::before {
+  top: -11px;
+  left: -42px;
+}
+h3.nytt::before,
+h4.nytt::before {
+  top: -14px;
+  left: -42px;
+}
+
+.rekai-dropdown-menu {
+  position: relative!important;
+}
+.rekai-autocomplete.rekai-styled .rekai-dropdown-menu {
+  background: transparent!important;
+}
+.rek-prediction ul {
+  list-style: none;
+  padding-left: 0;
+  padding-top: 0;
+  margin-top: 0;
+}
+#backstagePredictions a,
+#supportPredictions a {
+  display: block;
+}
