@@ -63,3 +63,9 @@ h4.nytt::before {
 #supportPredictions a {
   display: block;
 }
+
+#bfb_searchbox,
+#bfb_searchbox iframe  {
+  width: 100%!important;
+  border-radius: 3px;
+}
